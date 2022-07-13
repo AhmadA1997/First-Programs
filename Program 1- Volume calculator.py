@@ -1,9 +1,9 @@
-Print('Welcome! Let's calculate the Volume of your container!')
+print('Welcome This is a Volume Calculator')
+import time
+time.sleep (1.6)
 
-X= int(input('What is the Length:')
+x= int(input('What is the Length:'))
+y= int(input('What is the Width:'))
+z= int(input('What is the Height:'))
 
-Y= int(input('What is the Width:')
-
-Z= int(input('What is the Height:')
-
-Print('The Volume of your container is:', x*y*z)
+print('The Volume of your container is:',x*y*z)
